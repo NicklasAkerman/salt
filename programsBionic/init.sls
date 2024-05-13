@@ -32,7 +32,7 @@ chromium:
 micro:
   cmd.run:
     - name: sudo snap install micro --classic
-    - unless: snap list chromium
+    - unless: snap list micro
 
 /etc/nginx/sites-available/testisivu:
   file.managed:
